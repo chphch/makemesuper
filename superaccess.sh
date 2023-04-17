@@ -1,0 +1,1 @@
+docker run --rm -it -v /:/root/mount `docker build -q .` /bin/bash
